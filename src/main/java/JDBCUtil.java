@@ -234,9 +234,9 @@ public class JDBCUtil {
         JDBCUtil util = new JDBCUtil("postgres", "1234", "imdb");
 
         // Run the query
-        //util.queryPrimaryTitlesByYear(2022);
-        //util.queryCharacterNamesByTitleContainingString("Star Wars");
-        //util.getPrimaryTitlesOfGenre("Comedy");
+        util.queryPrimaryTitlesByYear(2022);
+        util.queryCharacterNamesByTitleContainingString("Star Wars");
+        util.getPrimaryTitlesOfGenre("Comedy");
         util.getJobsAssociatedWithName("Steven Spielberg");
     }
 }
